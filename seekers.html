@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seekers - [EmployEase]</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="seekers.css">
+</head>
+<body>
+    <header>
+        <div class="mobile">
+          <a href="index.html"> <div class="logo">
+            <img src="hero.jpg" alt="HireWell Logo">
+            <span class="tagline">Talent Solutions Division of EmployEase</span>
+        </div>
+        </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="recruit.html">RECRUITING <span class="dropdown"></span></a></li>
+                <li><a href="seekers.html">JOB SEEKERS <span class="dropdown"></span></a></li>
+                <li><a href="about.html">ABOUT <span class="dropdown"></span></a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container1 text-section">
+        <h1>SEEKING A JOB?</h1>
+        <h2>YOUR CAREER STARTS HERE.</h2>
+        <p>[EmployEase] helps professionals land their dream jobs. Today could be the 1st day of the rest of your life.</p>
+    </div>
+    <div class="container2">
+        <div class="search-section">
+            <form id="search-form">
+                <label for="keyword">Keyword</label>
+                <input type="text" id="keyword" name="keyword" placeholder="Search...">
+                <label for="location">Location</label>
+                <input type="text" id="location" name="location" placeholder="Search...">
+                <label for="radius">Radius in MI</label>
+                <input type="number" id="radius" name="radius" value="10">
+                <button type="submit">Search</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+        <div class="job-listings" id="job-listings">
+            <div class="job-card" data-title="SR. IT Specialist / IT Manager" data-location="Morton Grove, IL">
+                <h2>SR. IT Specialist / IT Manager</h2>
+                <p>$70,000 - $85,000</p>
+                <p>Morton Grove, IL</p>
+                <button>Learn More</button>
+            </div>
+            <div class="job-card" data-title="Sales Representative (Normal, IL)" data-location="Normal, IL">
+                <h2>Sales Representative (Normal, IL)</h2>
+                <p>$45,000 - $55,000</p>
+                <p>Normal, IL</p>
+                <button>Learn More</button>
+            </div>
+            <div class="job-card" data-title="Key Account Manager (Greenville, WI)" data-location="Greenville, WI">
+                <h2>Key Account Manager (Greenville, WI)</h2>
+                <p>$75,000 - $90,000</p>
+                <p>Greenville, WI</p>
+                <button>Learn More</button>
+            </div>
+            <div class="job-card" data-title="Service Manager (Wisconsin Rapids, WI)" data-location="Wisconsin Rapids, WI">
+                <h2>Service Manager (Wisconsin Rapids, WI)</h2>
+                <p>$65,000 - $75,000</p>
+                <p>Wisconsin Rapids, WI</p>
+                <button>Learn More</button>
+            </div>
+            <div class="job-card" data-title="Management Trainees (Maywood, IL)" data-location="Maywood, IL">
+                <h2>Management Trainees (Maywood, IL)</h2>
+                <p>$60,000 - $61,000</p>
+                <p>Maywood, IL</p>
+                <button>Learn More</button>
+            </div>
+            <div class="job-card" data-title="Service Supervisor (X2) - Maywood, IL" data-location="Maywood, IL">
+                <h2>Service Supervisor (X2) - Maywood, IL</h2>
+                <p>$65,000 - $75,000</p>
+                <p>Maywood, IL</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

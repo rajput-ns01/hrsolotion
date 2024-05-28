@@ -1,0 +1,118 @@
+.talent-solutions {
+    background-color: #f60;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .container {
+    align-items: center;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .talent-solutions-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  }
+  
+  .talent-solutions-logo {
+    width: 150px;
+  }
+  
+  .talent-solutions-logo img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .talent-solutions-text {
+    text-align: left; /* Ensuring text is left-aligned for readability */
+    max-width: 500px; /* Adding a max-width for better readability */
+  }
+  
+  .talent-solutions-text h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .talent-solutions-text p {
+    font-size: 14px;
+    color: #fbf8f8;
+    margin-bottom: 0;
+  }
+  
+  .talent-solutions-middle {
+    padding: 20px 0;
+  }
+  
+  .talent-solutions-middle p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .talent-solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    padding: 20px 0;
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+  
+  .grid-item img {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  
+  .grid-item h2 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Tablets and larger */
+  @media (min-width: 768px) {
+    .talent-solutions-text {
+      text-align: center;
+    }
+  
+    .talent-solutions-top {
+      flex-direction: row;
+    }
+  }
+  
+  /* Phones and smaller */
+  @media (max-width: 767px) {
+    .talent-solutions-top {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .talent-solutions-logo {
+      margin-bottom: 20px;
+    }
+  
+    .talent-solutions-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Ensure at least two columns */
+      gap: 20px; /* Adjust gap for smaller screens */
+    }
+  }
+  
