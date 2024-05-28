@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage - [EmployEase]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+    <header>
+        <div class="mobile">
+           <a href="index.html"> <div class="logo">
+                <img src="hero.jpg" alt="HireWell Logo">
+                <span class="tagline">Talent Solutions Division of EmployEase</span>
+            </div>
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li>
+                    <a href="recruit.html">RECRUITING <span class="dropdown"></span></a>
+                  </li>
+                  
+                <li><a href="seekers.html">JOB SEEKERS <span class="dropdown"></span></a></li>
+                <li><a href="about.html">ABOUT <span class="dropdown"></span></a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-image">
+            <img src="laptop.png" alt="Person on laptop screen">
+        </div>
+        <div class="hero-content">
+            <h1>WELCOME TO HIRING 2.0</h1>
+            <p>Become the company you want to be using our modern approach to hiring the right people. Say hi to the future of talent acquisition.</p>
+            <a href="#" class="learn-more">LEARN MORE</a>
+        </div>
+    </section>
+    <section class="clients">
+        
+        <div class="client-logos">
+          <img src="logo1.jpg" alt="FC Chicago Logo">
+          <img src="logo2.png" alt="Mastercard Logo">
+          <img src="logo3.png" alt="Trustmark Logo">
+          <img src="logo4.png" alt="Leaf Home Logo">
+          <img src="logo5.jpg" alt="Primestr Logo">
+          <img src="logo6.png" alt="FFactor Logo">
+          
+          <img src="logo7.webp" alt="@properties Logo">
+          <img src="logo8.jpeg" alt="Genehmany Logo">
+          <img src="logo9.png" alt="Contractbook Logo">
+          <img src="logo10.jpg" alt="Copper Logo">
+          <img src="logo11.png" alt="Evive Logo">
+          <img src="logo12.png" alt="Duracell Logo">
+        </div>
+        <div class="text">
+        <h2><strong>Clients, BFFs, call them what you will.</strong></h2>
+        <p>We do great work with great organizations. Not to brag [brags].</p>
+    </div>
+      </section>
+      <div class="myform">
+      <section class="contact-form">
+       
+        <h2>Drop Us A Line</h2>
+        <h4>Need help with hiring? Turns out, we'd love to help. Contact us below.</h4>
+        <form action="form-submit.php" method="post"> <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="company">Company Name (Optional):</label>
+            <input type="text" id="company" name="company">
+          </div>
+          <div class="form-group">
+            <label for="message">How Can We Help You Hire?</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="heardAboutUs">How Did You Hear About Us?</label>
+            <select id="heardAboutUs" name="heardAboutUs">
+              <option value="">Select an Option</option>
+              <option value="website">Website</option>
+              <option value="referral">Referral</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+     
+      </section> 
+    </div> 
+    
+    <script src="script.js"></script>
+</body>
+</html>
